@@ -1,8 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import ProfileCard from "./chapter_13/ProfileCard";
+import DarkOrLight from "./chapter_14/DarkOrLight";
+import MainContent from "./chapter_14/MainContent";
+import Blocks from "./chapter_15/Blocks";
 // import AttendanceBook from "./chapter_10/AttendanceBook";
 // import SignUp from "./chapter_11/SignUp";
-import Calculator from "./chapter_12/Calculator";
+// import Calculator from "./chapter_12/Calculator";
+
 // import TemperatureInput from "./chapter_12/TemperatueInput";
 
 import "./index.css";
@@ -20,7 +25,7 @@ import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
     <React.StrictMode>
-        <Calculator />
+        <Blocks></Blocks>
     </React.StrictMode>,
     document.getElementById("root")
 );
